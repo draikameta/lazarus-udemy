@@ -1,0 +1,40 @@
+object Form1: TForm1
+  Left = -1357
+  Height = 345
+  Top = 237
+  Width = 623
+  Caption = 'Form1'
+  ClientHeight = 345
+  ClientWidth = 623
+  LCLVersion = '4.4.0.0'
+  object lbFrase: TLabel
+    Left = 40
+    Height = 19
+    Top = 32
+    Width = 116
+    Caption = 'Informe uma frase: '
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object edFrase: TEdit
+    Left = 40
+    Height = 23
+    Top = 72
+    Width = 560
+    TabOrder = 0
+  end
+  object btnOk: TButton
+    Left = 40
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = 'Ok'
+    TabOrder = 1
+    OnClick = btnOkClick
+  end
+end

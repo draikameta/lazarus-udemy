@@ -1,0 +1,69 @@
+object Form1: TForm1
+  Left = -1369
+  Height = 353
+  Top = 196
+  Width = 658
+  Caption = 'Form1'
+  ClientHeight = 353
+  ClientWidth = 658
+  LCLVersion = '3.2.0.0'
+  object lbTextoUm: TLabel
+    Left = 32
+    Height = 25
+    Top = 48
+    Width = 87
+    Caption = 'Texto Um: '
+    Font.Height = -19
+    ParentFont = False
+  end
+  object lbTextoDois: TLabel
+    Left = 32
+    Height = 25
+    Top = 73
+    Width = 95
+    Caption = 'Texto Dois: '
+    Font.Height = -19
+    ParentFont = False
+  end
+  object edTextoUm: TEdit
+    Left = 128
+    Height = 23
+    Top = 48
+    Width = 440
+    TabOrder = 0
+  end
+  object edTextoDois: TEdit
+    Left = 128
+    Height = 23
+    Top = 75
+    Width = 440
+    TabOrder = 1
+  end
+  object btnTamanho: TButton
+    Left = 40
+    Height = 25
+    Top = 144
+    Width = 80
+    Caption = 'Tamanho'
+    TabOrder = 2
+    OnClick = btnTamanhoClick
+  end
+  object btnMaiusculo: TButton
+    Left = 148
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'Maiúsculo'
+    TabOrder = 3
+    OnClick = btnMaiusculoClick
+  end
+  object btnParteStr: TButton
+    Left = 248
+    Height = 25
+    Top = 144
+    Width = 104
+    Caption = 'Parte de String'
+    TabOrder = 4
+    OnClick = btnParteStrClick
+  end
+end

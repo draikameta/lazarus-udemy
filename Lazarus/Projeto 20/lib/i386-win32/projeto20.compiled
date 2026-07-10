@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarusDJ\fpc\3.2.2\bin\i386-win32\fpc.exe" Date="1482329590"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -l -vewnhibq &quot;-FiC:\Users\renan.almeida\Documents\Udemy\Lazarus\Projeto 20\lib\i386-win32&quot; &quot;-FuC:\Users\renan.almeida\Documents\Udemy\Lazarus\Projeto 20\&quot; &quot;-FUC:\Users\renan.almeida\Documents\Udemy\Lazarus\Projeto 20\lib\i386-win32\&quot; &quot;-FEC:\Users\renan.almeida\Documents\Udemy\Lazarus\Projeto 20\&quot; &quot;-oC:\Users\renan.almeida\Documents\Udemy\Lazarus\Projeto 20\projeto20.exe&quot; projeto20.lpr"/>
+</CONFIG>

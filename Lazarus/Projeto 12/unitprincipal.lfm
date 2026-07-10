@@ -1,0 +1,26 @@
+object Form1: TForm1
+  Left = -1364
+  Height = 357
+  Top = 193
+  Width = 654
+  Caption = 'Form1'
+  ClientHeight = 357
+  ClientWidth = 654
+  LCLVersion = '3.2.0.0'
+  object btnAlunos: TButton
+    Left = 32
+    Height = 49
+    Top = 176
+    Width = 115
+    Caption = 'Alunos'
+    TabOrder = 0
+    OnClick = btnAlunosClick
+  end
+  object mmAlunos: TMemo
+    Left = 16
+    Height = 152
+    Top = 16
+    Width = 150
+    TabOrder = 1
+  end
+end

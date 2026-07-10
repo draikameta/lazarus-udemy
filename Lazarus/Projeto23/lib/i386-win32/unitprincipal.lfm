@@ -1,0 +1,19 @@
+object Form1: TForm1
+  Left = -1326
+  Height = 325
+  Top = 209
+  Width = 624
+  Caption = 'Form1'
+  ClientHeight = 325
+  ClientWidth = 624
+  LCLVersion = '3.2.0.0'
+  object btnFuncoes: TButton
+    Left = 240
+    Height = 69
+    Top = 192
+    Width = 123
+    Caption = 'Funções'
+    TabOrder = 0
+    OnClick = btnFuncoesClick
+  end
+end

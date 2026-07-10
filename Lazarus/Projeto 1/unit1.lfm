@@ -1,0 +1,29 @@
+object Form1: TForm1
+  Left = 399
+  Height = 300
+  Top = 254
+  Width = 694
+  Caption = 'Form1'
+  ClientHeight = 300
+  ClientWidth = 694
+  LCLVersion = '4.4.0.0'
+  object btnPrincipal: TButton
+    Left = 288
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'Aperte me!'
+    TabOrder = 0
+    OnClick = btnPrincipalClick
+  end
+  object edPrincipal: TEdit
+    Left = 88
+    Height = 23
+    Top = 80
+    Width = 488
+    Color = clPurple
+    Font.Color = clWhite
+    ParentFont = False
+    TabOrder = 1
+  end
+end
