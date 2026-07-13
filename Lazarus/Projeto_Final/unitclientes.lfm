@@ -1,0 +1,37 @@
+object FormClientes: TFormClientes
+  Left = -1368
+  Height = 262
+  Top = 605
+  Width = 597
+  Caption = 'Cadastro de Clientes'
+  ClientHeight = 262
+  ClientWidth = 597
+  LCLVersion = '3.2.0.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 212
+    Width = 597
+    Align = alBottom
+    Color = clTeal
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+  end
+  object pgcPaginaUm: TPageControl
+    Left = 0
+    Height = 212
+    Top = 0
+    Width = 597
+    ActivePage = tbsArquivo
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 1
+    object tbsArquivo: TTabSheet
+      Caption = 'Arquivo'
+    end
+    object tbsDados: TTabSheet
+      Caption = 'Dados do Cliente'
+    end
+  end
+end
