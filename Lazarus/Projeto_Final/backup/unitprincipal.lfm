@@ -1,17 +1,17 @@
 object FormPrincipal: TFormPrincipal
-  Left = -1368
-  Height = 373
-  Top = 193
-  Width = 603
+  Left = 1209
+  Height = 374
+  Top = 529
+  Width = 604
   Caption = 'Projeto Final'
-  ClientHeight = 373
-  ClientWidth = 603
+  ClientHeight = 374
+  ClientWidth = 604
   LCLVersion = '3.2.0.0'
   object pnlTopo: TPanel
     Left = 0
     Height = 72
     Top = 0
-    Width = 603
+    Width = 604
     Align = alTop
     Color = clActiveCaption
     ParentBackground = False
@@ -155,6 +155,7 @@ object FormPrincipal: TFormPrincipal
       A704000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000
     }
+    OnClick = bitClienteClick
     TabOrder = 1
   end
 end

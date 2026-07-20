@@ -1,17 +1,17 @@
 object FormPrincipal: TFormPrincipal
-  Left = -1368
-  Height = 373
-  Top = 193
-  Width = 603
+  Left = 595
+  Height = 374
+  Top = 397
+  Width = 604
   Caption = 'Projeto Final'
-  ClientHeight = 373
-  ClientWidth = 603
+  ClientHeight = 374
+  ClientWidth = 604
   LCLVersion = '3.2.0.0'
   object pnlTopo: TPanel
     Left = 0
     Height = 72
     Top = 0
-    Width = 603
+    Width = 604
     Align = alTop
     Color = clActiveCaption
     ParentBackground = False

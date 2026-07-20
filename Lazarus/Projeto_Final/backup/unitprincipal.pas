@@ -14,6 +14,7 @@ type
   TFormPrincipal = class(TForm)
     bitCliente: TBitBtn;
     pnlTopo: TPanel;
+    procedure bitClienteClick(Sender: TObject);
   private
 
   public
@@ -26,6 +27,18 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TFormPrincipal }
+
+procedure TFormPrincipal.bitClienteClick(Sender: TObject);
+begin
+  try
+    Application.CreateForm(TFormClientes, FormClientes);
+    FormClientes.ShowModal;
+  finally
+    FormClientes.Free;
+  end;
+end;
 
 end.
 
