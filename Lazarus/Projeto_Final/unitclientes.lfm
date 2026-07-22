@@ -1,7 +1,7 @@
 object FormClientes: TFormClientes
-  Left = 1180
+  Left = 1194
   Height = 276
-  Top = 215
+  Top = 66
   Width = 680
   Align = alCustom
   BorderIcons = []

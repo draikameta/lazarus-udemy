@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="40"/>
       </Unit>
       <Unit>
         <Filename Value="unitprincipal.pas"/>
@@ -23,7 +23,7 @@
         <UnitName Value="unitPrincipal"/>
         <TopLine Value="3"/>
         <CursorPos Y="19"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -37,7 +37,7 @@
         <EditorIndex Value="1"/>
         <TopLine Value="12"/>
         <CursorPos X="31" Y="22"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -48,15 +48,25 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="unitDataModule"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <CursorPos Y="19"/>
-        <UsageCount Value="31"/>
+        <CursorPos Y="11"/>
+        <UsageCount Value="32"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="unitfuncoes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unitFuncoes"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="15"/>
+        <CursorPos X="6" Y="45"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="18">
+    <JumpHistory HistoryIndex="20">
       <Position>
         <Filename Value="unitprincipal.pas"/>
       </Position>
@@ -131,6 +141,14 @@
       <Position>
         <Filename Value="unitclientes.pas"/>
         <Caret Line="38" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="unitfuncoes.pas"/>
+        <Caret Line="30" Column="30"/>
+      </Position>
+      <Position>
+        <Filename Value="unitfuncoes.pas"/>
+        <Caret Line="43" Column="15" TopLine="3"/>
       </Position>
     </JumpHistory>
     <RunParams>

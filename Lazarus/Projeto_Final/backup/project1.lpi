@@ -60,8 +60,14 @@
         <Filename Value="unitdatamodule.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DM"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="unitDataModule"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitfuncoes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unitFuncoes"/>
       </Unit>
     </Units>
   </ProjectOptions>

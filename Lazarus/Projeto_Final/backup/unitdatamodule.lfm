@@ -1,8 +1,8 @@
 object DM: TDM
   OldCreateOrder = False
   Height = 150
-  HorizontalOffset = -335
-  VerticalOffset = 604
+  HorizontalOffset = -809
+  VerticalOffset = 506
   Width = 215
   object ZConnection1: TZConnection
     ControlsCodePage = cCP_UTF8
@@ -21,11 +21,13 @@ object DM: TDM
     Top = 16
   end
   object zQryClientes: TZQuery
+    Connection = ZConnection1
     Params = <>
     Left = 96
     Top = 16
   end
   object dsClientes: TDataSource
+    DataSet = zQryClientes
     Left = 160
     Top = 16
   end
