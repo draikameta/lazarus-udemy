@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, ComCtrls,
-  Buttons;
+  Buttons, StdCtrls;
 
 type
 
@@ -19,12 +19,25 @@ type
     bitCancelar: TBitBtn;
     bitGravar: TBitBtn;
     bitSair: TBitBtn;
+    cbEstado: TComboBox;
+    edCidade: TEdit;
+    edID: TEdit;
+    edNome: TEdit;
+    edDocumento: TEdit;
+    edEndereco: TEdit;
+    lbDocumento: TLabel;
+    lbID: TLabel;
+    lbNome: TLabel;
+    lbEndereco: TLabel;
+    lbCidade: TLabel;
+    lbEstado: TLabel;
     pgcPaginaUm: TPageControl;
     Panel1: TPanel;
     tbsDados: TTabSheet;
     tbsArquivo: TTabSheet;
     procedure bitCancelarClick(Sender: TObject);
     procedure bitSairClick(Sender: TObject);
+    procedure limpaCampos;
   private
 
   public
@@ -40,14 +53,15 @@ implementation
 
 { TFormClientes }
 
-procedure TFormClientes.bitCancelarClick(Sender: TObject);
+procedure TFormClientes.limpaCampos;
 begin
+  edID.Caption:='';
+  edNome.Caption:='';
+  edEndereco.Caption:='';
+  edDocumento.Caption:='';
+  edCidade.Caption:='';
+  cbEstado.ItemIndex:=-1;
 
-end;
-
-procedure TFormClientes.bitSairClick(Sender: TObject);
-begin
-  FormClientes.Close;
 end;
 
 end.

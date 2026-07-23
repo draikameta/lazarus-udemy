@@ -1,0 +1,34 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 150
+  HorizontalOffset = 1689
+  VerticalOffset = 851
+  Width = 215
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Connected = True
+    HostName = 'localhost'
+    Port = 3055
+    Database = 'C:\Users\renan.almeida\Documents\Udemy\Lazarus\Projeto_Final\PROJETO.FDB'
+    User = 'SYSDBA'
+    Password = 'masterkey'
+    Protocol = 'firebird-2.5'
+    Left = 32
+    Top = 16
+  end
+  object zQryClientes: TZQuery
+    Connection = ZConnection1
+    Params = <>
+    Left = 96
+    Top = 16
+  end
+  object dsClientes: TDataSource
+    DataSet = zQryClientes
+    Left = 160
+    Top = 16
+  end
+end

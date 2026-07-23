@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, ComCtrls,
-  Buttons;
+  Buttons, StdCtrls;
 
 type
 
@@ -19,6 +19,18 @@ type
     bitCancelar: TBitBtn;
     bitGravar: TBitBtn;
     bitSair: TBitBtn;
+    ComboBox1: TComboBox;
+    edCidade: TEdit;
+    edID: TEdit;
+    edNome: TEdit;
+    edDocumento: TEdit;
+    edEndereco: TEdit;
+    lbDocumento: TLabel;
+    lbID: TLabel;
+    lbNome: TLabel;
+    lbEndereco: TLabel;
+    lbCidade: TLabel;
+    lbEstado: TLabel;
     pgcPaginaUm: TPageControl;
     Panel1: TPanel;
     tbsDados: TTabSheet;

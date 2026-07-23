@@ -9,9 +9,9 @@ uses
 
 Procedure exibirClientes(Query:TzQuery);
 
-Procedure incluirCliente(Query:TzQuery; Nome:String;Endereco:String;Cidade:String;UF:String);
+Procedure incluirCliente(Query:TzQuery; Nome:String;Endereco:String;Cidade:String;UF:String;DOCUMENTO:String);
 
-Procedure alterarCliente(Query:TzQuery; Nome:String;Endereco:String;Cidade:String;UF:String; ID:Integer);
+Procedure alterarCliente(Query:TzQuery; Nome:String;Endereco:String;Cidade:String;UF:String;DOCUMENTO:String;ID:Integer);
 
 Procedure excluirCliente(Query:TzQuery; ID:Integer);
 
@@ -26,7 +26,7 @@ begin
   Query.Open;
 end;
 
-Procedure incluirCliente(Query:TzQuery)
+Procedure incluirCliente(Query:TzQuery; Nome:String;Endereco:String;Cidade:String;UF:String);
 begin
 Query.Close;
 Query.SQL.Clear;
@@ -63,6 +63,8 @@ begin
   Query.SQL.Add(' DELETE FROM CLIENTE WHERE ID ID=:ID');
 
   Query.Params[0].AsInteger:= ID;
+
+  Query.ExecSQL;
 end;
 
 

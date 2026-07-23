@@ -1,18 +1,18 @@
 object FormClientes: TFormClientes
-  Left = 1194
-  Height = 276
-  Top = 66
+  Left = 1227
+  Height = 358
+  Top = 457
   Width = 680
   Align = alCustom
   BorderIcons = []
   Caption = 'Cadastro de Clientes'
-  ClientHeight = 276
+  ClientHeight = 358
   ClientWidth = 680
   LCLVersion = '3.2.0.0'
   object Panel1: TPanel
     Left = 0
     Height = 50
-    Top = 226
+    Top = 308
     Width = 680
     Align = alBottom
     ClientHeight = 50
@@ -282,7 +282,7 @@ object FormClientes: TFormClientes
   end
   object pgcPaginaUm: TPageControl
     Left = 0
-    Height = 226
+    Height = 308
     Top = 0
     Width = 680
     ActivePage = tbsDados
@@ -294,6 +294,135 @@ object FormClientes: TFormClientes
     end
     object tbsDados: TTabSheet
       Caption = 'Dados do Cliente'
+      ClientHeight = 280
+      ClientWidth = 672
+      object lbID: TLabel
+        Left = 24
+        Height = 25
+        Top = 8
+        Width = 22
+        Caption = 'ID:'
+        Enabled = False
+        Font.Height = -19
+        ParentFont = False
+      end
+      object lbNome: TLabel
+        Left = 24
+        Height = 25
+        Top = 32
+        Width = 55
+        Caption = 'Nome:'
+        Font.Height = -19
+        ParentFont = False
+      end
+      object lbEndereco: TLabel
+        Left = 24
+        Height = 25
+        Top = 80
+        Width = 83
+        Caption = 'Endereço:'
+        Font.Height = -19
+        ParentFont = False
+      end
+      object lbCidade: TLabel
+        Left = 24
+        Height = 25
+        Top = 104
+        Width = 63
+        Caption = 'Cidade:'
+        Font.Height = -19
+        ParentFont = False
+      end
+      object lbEstado: TLabel
+        Left = 24
+        Height = 25
+        Top = 128
+        Width = 60
+        Caption = 'Estado:'
+        Font.Height = -19
+        ParentFont = False
+      end
+      object lbDocumento: TLabel
+        Left = 24
+        Height = 25
+        Top = 56
+        Width = 86
+        Caption = 'CPF/CNPJ:'
+        Font.Height = -19
+        ParentFont = False
+      end
+      object edID: TEdit
+        Left = 48
+        Height = 23
+        Top = 10
+        Width = 46
+        TabOrder = 0
+      end
+      object edNome: TEdit
+        Left = 80
+        Height = 23
+        Top = 34
+        Width = 296
+        TabOrder = 1
+      end
+      object edDocumento: TEdit
+        Left = 112
+        Height = 23
+        Top = 58
+        Width = 128
+        TabOrder = 2
+      end
+      object edEndereco: TEdit
+        Left = 112
+        Height = 23
+        Top = 82
+        Width = 264
+        TabOrder = 3
+      end
+      object edCidade: TEdit
+        Left = 95
+        Height = 23
+        Top = 107
+        Width = 104
+        TabOrder = 4
+      end
+      object cbEstado: TComboBox
+        Left = 90
+        Height = 23
+        Top = 132
+        Width = 100
+        ItemHeight = 15
+        Items.Strings = (
+          'AC'
+          'AL'
+          'AM'
+          'AP'
+          'BA'
+          'CE'
+          'DF'
+          'ES'
+          'GO'
+          'MA'
+          'MG'
+          'MS'
+          'MT'
+          'PA'
+          'PB'
+          'PE'
+          'PI'
+          'PR'
+          'RJ'
+          'RN'
+          'RO'
+          'RR'
+          'RS'
+          'SC'
+          'SE'
+          'SP'
+          'TO'
+        )
+        TabOrder = 5
+      end
     end
   end
 end

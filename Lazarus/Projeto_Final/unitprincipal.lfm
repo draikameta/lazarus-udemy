@@ -1,7 +1,7 @@
 object FormPrincipal: TFormPrincipal
-  Left = 1228
+  Left = 1250
   Height = 374
-  Top = 398
+  Top = 455
   Width = 604
   Caption = 'Projeto Final'
   ClientHeight = 374
